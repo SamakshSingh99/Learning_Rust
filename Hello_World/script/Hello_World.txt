@@ -1,0 +1,48 @@
+####################
+# Hello World Rust #
+####################
+
+# Run all of the following commands on Window's command terminal
+
+rustc --version
+
+rustup update
+
+# Make new directory #
+
+mkdir  .\Learning_Rust
+
+cd Learning_Rust
+
+# Setting up Cargo (Rust Package Manager) to install rust dependencies #
+
+cargo new Hello_World
+
+# Navigate to the new folder and launch VS Code via .code
+
+cd Hello_World
+
+code .
+
+###########################################################################
+# `cargo new` Creates a simple hello world project in src\main.rs folder. #
+###########################################################################
+
+# Using cargo build to build a rust project
+
+cargo build # This creates target\debug directory with executable hello_world.exe
+
+#######################
+# Running Hello World #
+#######################
+
+# Approach 1 ~ using cargo run inside Hello_World directory
+
+cd .\Learning_Rust\Hello_World
+
+cargo run
+
+# Approach 2 ~ through command prompt
+
+.\Learning_Rust\Hello_World\target\debug\hello_world
+
